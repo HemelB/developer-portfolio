@@ -8,8 +8,9 @@ h1{
 .name{
     color: coral;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,35 @@ section{
 .top-banner{
     background-image: url(/images/top-banner.png);
 background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-box{
+    width:40%;
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow:10px 10px 20px gray;
+
+}
+.experience-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+#exp-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(green yellow);
+    border-image-slice: 1;
+}
+#exp-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(green yellow);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
